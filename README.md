@@ -61,17 +61,6 @@ You will need free API keys to use the following services:
 
 Use environment variables or configuration files to store your API keys securely during development.
 
-## What You're Evaluating
-
-| Category | What to Look For |
-|----------|------------------|
-| API Design | RESTful, well-structured controller/service modules |
-| Type Safety | Interfaces and DTOs used correctly in NestJS |
-| API Integration | Proper HTTP handling, retries, error paths |
-| Data Modeling | Unified response structure regardless of source |
-| Code Quality | Clean, modular, and easy to follow |
-| Error Handling | Graceful handling of partial failures (e.g., one API succeeds, another fails) |
-
 ## Stretch Goals
 If time allows, candidates are encouraged to add:
 
