@@ -26,7 +26,7 @@ Request Body:
 {
   "targets": [
     "8.8.8.8",
-    "http://malicious.test"
+    "https://malicious-site.com"
   ]
 }
 ```
@@ -42,11 +42,14 @@ Expected Response:
     "tags": []
   },
   {
-    "target": "http://malicious.test",
+    "target": "https://malicious-site.com",
     "malicious": true,
-    "abuseConfidenceScore": null,
-    "virusTotalReports": 12,
-    "tags": ["phishing", "malware"]
+    "abuse_confidence_score": null,
+    "virus_total_reports": 11,
+    "tags": [
+      "malware",
+      "phishing"
+    ]
   }
 ]
 ```
